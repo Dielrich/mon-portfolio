@@ -99,10 +99,22 @@ body h2 {
     width: 600px;
 }
 
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+}
+
+.container-competences {
+    width: 800px;
+    height: auto;
+}
 ul li {
     list-style-type: none;
     font-size: 25px;
-    margin: 25px;
+    margin: 20px;
     padding: 5px;
     width: 150px;
     text-align: center;
