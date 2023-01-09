@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background-color: rgb(59, 44, 93);
     font-family: 'Times New Roman', Times, serif;
+    color: beige;
 }
 
 header {
@@ -28,7 +29,6 @@ header .intro span {
 
 header .intro {
     font-size: 20px;
-    color: beige;
     padding: 0 50px;
     border-right: 2px solid gray;
 }
@@ -46,7 +46,6 @@ header .navbar a {
     justify-content: flex-start;
     align-items: center;
     text-decoration: none;
-    color: beige;
 }
 
 .container-profil {
@@ -55,7 +54,6 @@ header .navbar a {
     justify-content: center;
     text-align: justify;
     flex-direction: column;
-    color: beige;
 }
 
 .container-profil h2 {
@@ -91,4 +89,14 @@ header .navbar a {
 .about p strong{
     color: darkgrey;
     font-style: italic;
+}
+
+.container-project #project img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 600px;
+
+   
 }
