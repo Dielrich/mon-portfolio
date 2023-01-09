@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(59, 44, 93);
+    background:rgb(59, 44,93);
     font-family: 'Times New Roman', Times, serif;
     color: beige;
 }
@@ -40,10 +40,18 @@ header .navbar {
 
 header .navbar a {
     margin-left: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     text-decoration: none;
+
+
+}
+
+header .navbar a:hover {
+    text-shadow: 3px 2px 15px lightslategray;
 }
 
 .container-profil {
@@ -67,12 +75,14 @@ body h2 {
 
 .container-profil .trombi img {
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-right: 3px solid gray;
     border-left: 3px solid gray;
     margin: 20px 0;
     box-shadow: 20px 0 20px black;
+    object-fit: cover;
+    object-position: 0 0;
 }
 
 .about {
@@ -89,14 +99,6 @@ body h2 {
     color: darkgrey;
     font-weight: bold;
     font-style: italic;
-}
-
-.container-project #project img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 380px;
-    width: 600px;
 }
 
 ul {
@@ -126,4 +128,42 @@ ul li:hover {
     color: gray;
     text-shadow: gray 2px 0 10px;
     rotate: -0.5 -0.5 1 -15deg;
+}
+
+.container-project {
+    width: 800px;
+    height: auto;
+}
+.container-project h3 {
+    font-size: 25px;
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom:10px;
+    text-align: center;
+    text-decoration: underline gray;
+}
+.container-project p {
+    text-align: center;
+    padding: 25px;
+    border-bottom: 2px solid lightslategray;
+}
+
+.container-project #project img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 600px;
+    border-radius: 20px 20px;
+}
+
+.container-project p span {
+    font-size: 20px;
+    border-bottom: 1px solid lightslategray;
+    border-left: 1px solid lightslategray;
+    text-align: center;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    color:cyan
 }
