@@ -9,18 +9,16 @@
 </head>
 <header>
     <div class="intro">
-        <h1 class="title"><span>B</span>ienvenu dans mon Portfolio</h1>
+        <h1 class="title"><span>B</span>ienvenue dans mon Portfolio</h1>
     </div>
-    <div class="menu">
+    <nav class="menu">
         <div class="navbar">
-            <ul>
-                <li><a href="#profil">A propos</a></li>
-                <li><a href="#competences">Mes Compétences</a></li>
-                <li><a href="#project">Mes Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#profil">A propos</a>
+            <a href="#competences">Mes Compétences</a>
+            <a href="#project">Mes Projets</a>
+            <a href="#contact">Contact</a>
         </div>
-    </div>
+    </nav>
 </header>
 <body>
     <div class="container-profil">
@@ -29,7 +27,7 @@
                 <img src="img/moi.jpg" alt="Photo de Alain BOURREE">
             </div>
                 <div class="about">
-                    <p><span>A</span>gent des Forces de l'ordre depuis mes 18 ans, aujourd'hui je suis en reconversion professionnelle.<br>
+                    <p>Agent des Forces de l'ordre depuis mes 18 ans, aujourd'hui je suis en reconversion professionnelle.<br>
                         Depuis mon plus jeune âge, j'ai toujours été attiré par le monde de l'informatique et du web. J'aime <strong>créer et concevoir</strong> et la découverte du développement web m'a immédiatement plu et donné l'envie d'en savoir plus et d'en faire mon métier. <br>
                         Comme indiqué précédemment, je suis en reconversation professionnelle mais je suis également dans l'attente d'intégrer l'école <strong>Web Force 3</strong> en Mars 2023 pour devenir <strong>Développeur Web / Web Mobile</strong>.</p>
                 </div>
@@ -47,26 +45,28 @@
             </div>
     </div>
     <section class="container-project">
-        <div class="lens">
-            <h2>Site de "Robbie Lens Photographie"</h2>
-            <img src="img/Lens.png" alt="Site de Robbie Lens">
-            <p><span>P</span>roject de site professionnel fictif suite au cours d'apprentissage basique du HTML5 et CSS3 via le site <strong>OpenClassRomms</strong>.</p>
-        </div>
-        <div class="google">
-            <h2>Reproduction page d'accueil "GOOGLE"</h2>
-            <img src="img/google.png" alt="Reproduction de la page d'accueil de Google">
-            <p><span>R</span>eproduction de la page d'accueil Google de la saison hivernale dans un but d'entrainement personnel.<br>
-                Aucune intéraction n'est fonctionnelle et site entièrement codé en HTLM et CSS.</p>
-        </div>
-        <div class="stand">
-            <h2>Projet de création d'un site maraîcher</h2>
-            <img src="img/under-construction.png" alt="site La Pataterie du Cours">
-            <p><span>P</span>rojet à la demande d'un ami qui est maraîcher sur le marché du Cours LAFAYETTE à TOULON (83). <br>
-                Site en cours de développement... </p>
+        <div id="project">
+            <div class="lens">
+                <h2>Site de "Robbie Lens Photographie"</h2>
+                <img src="img/Lens.png" alt="Site de Robbie Lens">
+                <p><span>P</span>roject de site professionnel fictif suite au cours d'apprentissage basique du HTML5 et CSS3 via le site <strong>OpenClassRomms</strong>.</p>
+            </div>
+            <div class="google">
+                <h2>Reproduction page d'accueil "GOOGLE"</h2>
+                <img src="img/google.png" alt="Reproduction de la page d'accueil de Google">
+                <p><span>R</span>eproduction de la page d'accueil Google de la saison hivernale dans un but d'entrainement personnel.<br>
+                    Aucune intéraction n'est fonctionnelle et site entièrement codé en HTLM et CSS.</p>
+            </div>
+            <div class="stand">
+                <h2>Projet de création d'un site maraîcher</h2>
+                <img src="img/under-construction.png" alt="site La Pataterie du Cours">
+                <p><span>P</span>rojet à la demande d'un ami qui est maraîcher sur le marché du Cours LAFAYETTE à TOULON (83). <br>
+                    Site en cours de développement... </p>
+            </div>
         </div>
     </section>
     <div class="container-contact">
-        <div class="contact">
+        <div id="contact">
             <p>Alain BOURREE</p>
             <p>em@il : al.bourree@hotmail.fr</p>
             <p>tél: 06.58.12.59.52</p>
