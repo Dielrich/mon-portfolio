@@ -165,5 +165,27 @@ ul li:hover {
     text-align: center;
     padding-left: 3px;
     padding-bottom: 3px;
-    color:cyan
+    color: darkgray
+}
+
+.container-contact #contact {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container-contact a {
+    text-decoration: none;
+}
+
+footer span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 2px solid lightslategray;
+    width: 800px;
+    height: auto;
 }
