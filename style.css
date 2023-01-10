@@ -83,6 +83,11 @@ body h2 {
     box-shadow: 20px 0 20px black;
     object-fit: cover;
     object-position: 0 0;
+    transition: transform .7s;
+}
+
+.container-profil .trombi img:hover{
+    transform: scale(1.2);
 }
 
 .about {
@@ -156,6 +161,11 @@ ul li:hover {
     height: 380px;
     width: 600px;
     border-radius: 20px 20px;
+    transition: transform 1.0s;
+}
+
+.container-project #project img:hover {
+    transform: scale(1.5);
 }
 
 .container-project p span {
