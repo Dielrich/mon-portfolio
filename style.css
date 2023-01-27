@@ -199,3 +199,18 @@ footer {
     width: 800px;
     height: auto;
 }
+
+@media screen and (max-width: 1150px){
+    header {
+        width: auto;
+        display: block;
+    }
+    header .navbar {
+        width: 80%;
+        margin: 20px 0;
+    }
+    header .intro {
+        border: none;
+    }
+       
+}
