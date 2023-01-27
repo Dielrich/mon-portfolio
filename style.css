@@ -211,6 +211,7 @@ footer {
     }
     header .intro {
         border: none;
+        font-size: 12px;
     }
        
 }
